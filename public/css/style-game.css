@@ -1,0 +1,140 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #9C835F;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-top: -20px;
+  margin-left: -20px;
+}
+
+.logo-child {
+  margin-right: 30px;
+  position: relative;
+  top: 10px;
+  color: #F9B23D;
+  font-size: 30px;
+  margin-top: 5px;
+  margin-left: 20px;;
+}
+
+.fa-less-than {
+  width: 100px;
+  color: #724C21;
+  position: relative;
+  top: 22px;
+  left: 35px;
+  height: 90px;
+}
+
+.logo1 {
+  width: 3.3em;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.player1, .com {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 2em;
+  padding-right: 2em;
+  position: relative;
+  top: -20px;
+}
+
+.batu, .kertas, .gunting {
+  width: 90px;
+}
+
+h3 ~ div {
+  width: 6.3em;
+  margin: 20px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.vs {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+  top: -20px;
+}
+
+.vs .image:active {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.vs img {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 736px) {
+  h3 ~ img {
+    width: 4em;
+    margin: 15px;
+  }
+}
+
+.hand {
+  cursor: pointer;
+}
+
+
+#latarBatu, #latarKertas, #latarGunting {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+
+#latarBatu-COM, #latarKertas-COM, #latarGunting-COM {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+
+.vs .only-vs {
+  position: relative;
+  top: -150px;
+  width: 150;
+  font-size: 50px;
+  color: #BD0000;
+}
+
+.vs .result, .result-draw {
+  background-color: #4C9654;
+  position: relative;
+  top: -150px;
+  /* width: 100px; */
+  font-size: 0.7em;
+  transform: rotate(-30deg);
+  padding: 15px;
+  color: white;
+  letter-spacing: 5px;
+}
+
+.result-draw {
+  background-color: #035B0C;
+}
+

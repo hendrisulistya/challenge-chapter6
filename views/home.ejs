@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style-landing.css">
+  <title>Landing Page</title>
+</head>
+<body>
+  <!-- MAIN SCREEN -->
+  <div class="main-screen">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light main-bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about me</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 auth">
+              <li class="nav-item"><a class="nav-link" href="/register">sign up<a></li>
+              <li class="nav-item"><a class="nav-link" href="/login">login</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+    <main>
+        <h1 class="display-1">play traditional game</h1>
+        <h3>Experience new traditional game play</h3>
+        <button type="button" class="btn btn-warning"><a style="color: black !important; text-decoration: none; font-weight: bold;" href="/gameplay">TRIAL</a></button>
+    </main>
+    <section class="scroll-down-button text-center display-6">
+      <a class="d-block text-decoration-none text-uppercase" href="#">the story</a>
+      <img class="scroll-down" src="/img/assets-landing/scroll down.svg" alt="scroll-down">
+    </section>
+  </div>
+
+  <!-- ABOUT + GALLERY -->
+  <section class="about-gallery">
+    <div class="scissors d-flex justify-content-center">
+      <div class="about-gallery-text">
+        <h3>What's so special?</h3>
+        <h1>THE GAMES</h1>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/img/assets-landing/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="rockpapers">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/assets-landing/rockpaperstrategy-1600.jpg" class="d-block w-100 img-fluid" alt="rockpapers">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/assets-landing/rockpaperstrategy-1600.jpg" class="d-block w-100 img-fluid" alt="rockpapers">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/assets-landing/rockpaperstrategy-1600.jpg" class="d-block w-100 img-fluid" alt="rockpapers">
+          </div>
+          <div class="carousel-item">
+            <img src="/img/assets-landing/rockpaperstrategy-1600.jpg" class="d-block w-100" alt="rockpapers">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- GAME FEATURES -->
+  <section class="game-features d-flex justify-content-end align-items-center">
+    <div class="game-features-text">
+      <h3>What's so special?</h3>
+      <h1>features</h1>
+      <div class="feature-list">
+        <div class="timeline">
+          <div class="white-circle"></div>
+          <div class="vertical-line"></div>
+          <div class="black-circle"></div>
+          <div class="black-circle2"></div>
+        </div>
+        <div class="orange-feature mt-5">
+          <p class="orange-text">traditional games</p>
+          <p>if you miss your childhood, we provide many traditional games here</p>
+          <p class="orange-text">game suit</p>
+          <p class="orange-text">tbd</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SYSTEM REQUIREMENTS -->
+  <section class="system-requirements">
+    <h3>Can My Computer Run this game?</h3>
+    <div class="system-req d-flex flex-wrap">
+      <h1>system requirements</h1>
+      <div class="table-responsive">
+        <table class="table table-bordered">
+          <tr>
+            <td><span>os:</span><p>Windows 7 64-bit only (No OSX support at this time)</p></td>
+            <td><span>processor:</span><p>Intel Core 2 Duo @ 2.4 GHZ or AMD Athlon X2 @ 2.8 GHZ</p></td>
+          </tr>
+          <tr>
+            <td><span>memory:</span><p>4 GB RAM</p></td>
+            <td><span>storage:</span><p>8 GB available space</p></td>
+          </tr>
+          <tr>
+            <td colspan="2"><span>graphics:</span><p>NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model S)</p></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRESS QUOTES -->
+  <section class="press-quotes">
+    <div class="container">
+      <div class="row">
+        <div class="col top-scores">
+          <h1>top scores</h1>
+          <p>This top score from various games provides on this problem</p>
+          <button class="see-more">see more</button>
+        </div>
+        <div class="col card-data">
+          <div class="row row-cols-1 row-cols-md-2 g-4 d-flex flex-column align-items-center card-col">
+            <div class="col">
+              <div class="card isi-card">
+                <div class="card-body">
+                  <img class="picture" src="/img/assets-landing/image1.jpg" alt="evan-lahti">
+                  <div class="name">
+                    <p class="orange-name">Evan Lahti</p>
+                    <p class="work-place">PC Gamer</p>
+                  </div>
+                  <div class="clear"></div>
+                  <img src="/img/assets-landing/twitter.svg" alt="twitter" class="twitter-logo">
+                  <p class="card-text">"One of my gaming highlights of the year".</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">June 18, 2021</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card isi-card card-2">
+                <div class="card-body">
+                  <img class="picture" src="/img/assets-landing/image2.jpg" alt="Jada Griffin">
+                  <div class="name">
+                    <p class="orange-name">Jada Griffin</p>
+                    <p class="work-place">Nerdreactor</p>
+                  </div>
+                  <div class="clear"></div>
+                  <img src="/img/assets-landing/twitter.svg" alt="twitter" class="twitter-logo">
+                  <p class="card-text">"The next big thing in the world of streaming and survival games".</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">July 10, 2021</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card isi-card">
+                <div class="card-body">
+                  <img class="picture" src="/img/assets-landing/image3.jpg" alt="evan-lahti">
+                  <div class="name">
+                    <p class="orange-name">Aarons Williams</p>
+                    <p class="work-place">Uproxx</p>
+                  </div>
+                  <div class="clear"></div>
+                  <img src="/img/assets-landing/twitter.svg" alt="twitter" class="twitter-logo">
+                  <p class="card-text">"Snoop Dogg Playing the Wildly Entertaining 'SOS' is Ridiculous".</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">December 24, 2018</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SUBSCRIBE + FOOTER -->
+  <section class="subscribe-footer">
+    <div class="container container-subs">
+      <div class="row d-flex align-items-center">
+        <div class="col col1">
+          <img src="/img/assets-landing/Rectanglelast.png" alt="">
+        </div>
+        <div class="col col2">
+          <h3>Want to stay in touch?</h3>
+          <h1>NEWSLETTER SUBSCRIBE</h1>
+          <p>in order to start receiving our news, all you have to do is enter your email address. Everything else will be taken care of by us. We will send you emails containing information about game. We don't spam.</p>
+          <form action="#" class="d-flex justify-content-between form">
+            <label for="email">Your email address</label>
+            <input type="email" placeholder="youremail@binar.co.id" id="email">
+            <button class="btn btn-warning">Subscribe now</button>
+          </form>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-7 col-menu1 d-flex justify-content-end align-items-center">
+            <ul class="d-flex unlist">
+              <li><a href="#">main</a></li>
+              <li><a href="#">about</a></li>
+              <li><a href="#">game features</a></li>
+              <li><a href="#">system requirements</a></li>
+              <li><a href="#">quotes</a></li>
+            </ul>
+          </div>
+          <div class="col col-menu2 d-flex justify-content-end align-items-center">
+            <img src="/img/assets-landing/facebook.svg" alt="facebook-logo">
+            <img src="/img/assets-landing/twitter.svg" alt="twitter-logo">
+            <img src="/img/assets-landing/Vector.svg" alt="youtube-logo">
+            <img src="/img/assets-landing/twitch.svg" alt="twitch-logo">
+          </div>
+          <hr>
+          <div class="container">
+            <div class="row">
+              <div class="col col-last1">
+                <p>&copy; 2018 Your Games, Inc. All Rights Reserved</p>
+              </div>
+              <div class="col col-last2">
+                <p>privacy policiy | terms of services | code of conduct</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
