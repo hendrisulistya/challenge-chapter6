@@ -1,5 +1,5 @@
 const express = require('express');
-const { UserGame, UserGameBiodata, } = require('./models');
+const { UserGame, UserGameBiodata, UserGameHistory } = require('./models');
 const users = require('./db/users.json');
 const app = express();
 const port = 3000;
@@ -54,7 +54,7 @@ app.post('/users/create', (req, res) => {
 // READ
 app.get('/users', (req, res) => {
     UserGame.findAll({
-            include: UserGameBiodata,
+            include: UserGameHistory,
         })
         .then((data) => {
             res.render('users', { data });
