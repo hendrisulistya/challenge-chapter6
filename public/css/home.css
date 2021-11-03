@@ -1,0 +1,349 @@
+h1,
+h2,
+h3,
+h4,
+p {
+    color: white;
+}
+
+.container-fluid {
+    padding: 0px;
+}
+
+.section-1 {
+    background-image: url(../img/ch3/main-bg.jpg);
+    background-size: cover;
+}
+
+.navbar {
+    font-weight: bold;
+    height: 50px;
+    margin-bottom: 10em;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 0.5;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-size: 12px;
+    margin-left: 2em;
+}
+
+#main-menu.collapse.navbar-collapse {
+    margin-left: 5em;
+}
+
+#navbarAuth {
+    margin-left: 15em;
+}
+
+.text-section-1 {
+    justify-content: center;
+    text-align: center;
+}
+
+.text-section-1 h1 {
+    font-size: 72px;
+    margin-bottom: 0.5em;
+}
+
+@media only screen and (max-width: 600px) {
+    .text-section-1 h1 {
+        font-size: 36px;
+    }
+}
+
+.text-section-1 p {
+    font-size: 12px;
+    margin-bottom: 2em;
+}
+
+.btn-warning {
+    font-size: 12px;
+    background-color: #FFB548;
+    border-color: #FFB548;
+    width: 10em;
+    height: 2.5em;
+    margin-bottom: 15em;
+}
+
+.text-section-1 h3 {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+
+.bi.bi-caret-down {
+    color: white;
+}
+
+.section-2 {
+    background-image: url(../img/ch3/the-games-bg.jpg);
+    background-size: cover;
+    height: 1050px;
+}
+
+#content-2 {
+    display: flex;
+    padding-top: 15em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.col-lg-4 {}
+
+.text-content-2 {
+    display: grid;
+    justify-content: end;
+}
+
+.text-content-2 p {
+    font-size: 1.5vw;
+    margin: 0%;
+}
+
+.text-content-2 h1 {
+    font-size: 2.7vw;
+}
+
+.col-lg-8 {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.carousel-control-prev {
+    margin-left: -6vw;
+}
+
+.carousel-control-next {
+    margin-right: -6vw;
+}
+
+.carousel-indicators [data-bs-target] {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    border: solid white;
+    background-color: transparent;
+}
+
+.section-3 {
+    background-image: url(../img/ch3/features.jpg);
+    background-size: cover;
+    height: 1050px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 20%;
+}
+
+.text-content-3 {
+    margin-bottom: 10%;
+    width: 50%;
+}
+
+.row.timeline {
+    justify-content: flex-end;
+}
+
+.timeline ul li {
+    color: #FFB548;
+}
+
+.timeline ul p {
+    font-size: 12px;
+    text-align: left;
+}
+
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 28px;
+    width: 2px;
+    height: 50%;
+    z-index: 400;
+    margin-top: 20px;
+}
+
+ul.timeline>li {
+    margin-left: 3vw;
+}
+
+ul.timeline>li:before {
+    content: ' ';
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+    margin-top: 0.5vw;
+}
+
+ul.timeline>li.suit:before {
+    background-color: transparent;
+}
+
+ul.timeline>li.tbd:before {
+    background-color: transparent;
+}
+
+.section-4 {
+    background-image: url(../img/ch3/requirements.png);
+    background-size: cover;
+    height: 1050px;
+    padding: 10%;
+}
+
+.section-4 h1 {
+    font-size: 3vw;
+}
+
+.section-4 h4 {
+    font-size: 1.5vw;
+    color: #FFB548;
+    ;
+}
+
+.section-4 p {
+    font-size: 1vw;
+}
+
+.col-3.spec {
+    padding: 1%;
+}
+
+.col-6.spec {
+    padding: 1%;
+}
+
+.section-5 {
+    background-image: url(../img/ch3/top-score-bg.png);
+    background-size: cover;
+    height: 1050px;
+    padding: 10%;
+}
+
+.col-3.card-pp1 {
+    background-image: url(../img/ch3/pp1.png);
+    background-size: cover;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 2em;
+}
+
+.col-3.card-pp2 {
+    background-image: url(../img/ch3/pp2.png);
+    background-size: cover;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 2em;
+}
+
+.col-3.card-pp3 {
+    background-image: url(../img/ch3/pp3.png);
+    background-size: cover;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 2em;
+}
+
+.col-1.logo-pp1 {
+    background-image: url(../img/ch3/twitter.svg);
+    background-size: cover;
+    height: 2vw;
+    width: 2.5vw;
+}
+
+.section-6 {
+    background-color: black;
+    background-size: cover;
+}
+
+.container.section-6 {
+    padding: 5%;
+}
+
+.col.subs-text p {
+    font-size: 1vw;
+    text-align: justify;
+}
+
+.col.subs-text h1 {
+    font-size: 3vw;
+}
+
+#rectangle-4-2 {
+    height: 50vw;
+}
+
+.container.image-rectangle {
+    background-image: url(../img/ch3/img_content5.png);
+    height: 100%;
+    background-size: cover;
+}
+
+.col-7.email-subs {
+    background: #80808030;
+    border-radius: 0.25em;
+}
+
+#navbar-bottom {
+    margin-bottom: 0;
+    background-color: black;
+}
+
+#nav-favicon {
+    margin-left: 5%;
+}
+
+.nav-item.favicon {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav-link.logo-fb {
+    background-image: url(../img/ch3/facebook.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.nav-link.logo-twitter {
+    background-image: url(../img/ch3/twitter.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.nav-link.logo-yt {
+    background-image: url(../img/ch3/yt.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
+
+.nav-link.logo-twitch {
+    background-image: url(../img/ch3/twitch.svg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+}
