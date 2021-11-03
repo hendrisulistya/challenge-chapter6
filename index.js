@@ -54,7 +54,7 @@ app.post('/users/create', (req, res) => {
 // READ
 app.get('/users', (req, res) => {
     UserGame.findAll({
-            include: UserGameHistory,
+            include: UserGameBiodata,
         })
         .then((data) => {
             res.render('users', { data });
